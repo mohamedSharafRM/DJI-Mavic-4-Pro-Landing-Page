@@ -917,7 +917,7 @@ tfoot td span{
 .footer-brand__logo__box {
     margin-right: 8px;
 }
-.footer-brand__logo__box img{
+.footer-brand__logo__box{
     background-color: #8e51ff;
     width: 40px;
     height: 40px;
@@ -926,6 +926,10 @@ tfoot td span{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-brand__logo__box img{
+    width: 60%;
 }
 .footer-brand p{
     margin-bottom: 24px;
